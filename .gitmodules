@@ -1,0 +1,27 @@
+[submodule "Bundler.tmbundle"]
+	path = Bundler.tmbundle
+	url = git://github.com/drnic/Bundler.tmbundle.git
+[submodule "Cucumber.tmbundle"]
+	path = Cucumber.tmbundle
+	url = git://github.com/bmabey/cucumber-tmbundle.git
+[submodule "Haml.tmbundle"]
+	path = Haml.tmbundle
+	url = git://github.com/carlosbrando/handcrafted-haml-textmate-bundle.git
+[submodule "Ruby on Rails.tmbundle"]
+	path = Ruby on Rails.tmbundle
+	url = git://github.com/carlosbrando/ruby-on-rails-tmbundle.git
+[submodule "RSpec.tmbundle"]
+	path = RSpec.tmbundle
+	url = git://github.com/dchelimsky/rspec-tmbundle.git
+[submodule "Copy as RTF.tmbundle"]
+	path = Copy as RTF.tmbundle
+	url = git://github.com/drnic/copy-as-rtf-tmbundle.git
+[submodule "Shoulda.tmbundle"]
+	path = Shoulda.tmbundle
+	url = git://github.com/drnic/ruby-shoulda-tmbundle.git
+[submodule "Git.tmbundle"]
+	path = Git.tmbundle
+	url = git://github.com/jcf/git-tmbundle.git
+[submodule "rails-routes.tmbundle"]
+	path = rails-routes.tmbundle
+	url = git://github.com/szeryf/rails-routes.tmbundle.git

@@ -1,0 +1,6 @@
+Textmate setup with submodules
+
+git clone git://github.com/joaovitor/tmbundles.git
+cd tmbundles
+
+rake textmate:install
