@@ -5,7 +5,7 @@ namespace :textmate do
       ["git://github.com/bmabey/cucumber-tmbundle.git", "Cucumber.tmbundle"],
       ["git://github.com/carlosbrando/handcrafted-haml-textmate-bundle.git", "Haml.tmbundle"],
       ["git://github.com/carlosbrando/ruby-on-rails-tmbundle.git", "Ruby on Rails.tmbundle"],
-      ["git://github.com/dchelimsky/rspec-tmbundle.git", "RSpec.tmbundle"],
+      ["git://github.com/rspec/rspec-tmbundle.git", "RSpec.tmbundle"],
       ["git://github.com/drnic/Bundler.tmbundle.git"],
       ["git://github.com/drnic/copy-as-rtf-tmbundle.git", "Copy as RTF.tmbundle"],
       ["git://github.com/drnic/ruby-shoulda-tmbundle.git", "Shoulda.tmbundle"],
