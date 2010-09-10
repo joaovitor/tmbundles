@@ -25,3 +25,6 @@
 [submodule "RSpec.tmbundle"]
 	path = RSpec.tmbundle
 	url = git://github.com/rspec/rspec-tmbundle.git
+[submodule "Whitespace.tmbundle"]
+	path = Whitespace.tmbundle
+	url = git://github.com/vigetlabs/whitespace-tmbundle.git

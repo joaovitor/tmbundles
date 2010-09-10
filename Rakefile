@@ -2,6 +2,7 @@ namespace :textmate do
   desc "Textmate setup with submodules"
   task :setup do
     [
+      ["git://github.com/vigetlabs/whitespace-tmbundle.git", "Whitespace.tmbundle"],
       ["git://github.com/bmabey/cucumber-tmbundle.git", "Cucumber.tmbundle"],
       ["git://github.com/carlosbrando/handcrafted-haml-textmate-bundle.git", "Haml.tmbundle"],
       ["git://github.com/carlosbrando/ruby-on-rails-tmbundle.git", "Ruby on Rails.tmbundle"],
