@@ -28,3 +28,6 @@
 [submodule "Whitespace.tmbundle"]
 	path = Whitespace.tmbundle
 	url = git://github.com/vigetlabs/whitespace-tmbundle.git
+[submodule "CoffeeScript.tmbundle"]
+	path = CoffeeScript.tmbundle
+	url = git://github.com/jashkenas/coffee-script-tmbundle.git
