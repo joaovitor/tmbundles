@@ -31,3 +31,6 @@
 [submodule "CoffeeScript.tmbundle"]
 	path = CoffeeScript.tmbundle
 	url = git://github.com/jashkenas/coffee-script-tmbundle.git
+[submodule "Clojure.tmbundle"]
+	path = Clojure.tmbundle
+	url = git://github.com/swannodette/textmate-clojure.git
