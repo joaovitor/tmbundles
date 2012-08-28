@@ -12,6 +12,7 @@ namespace :textmate do
       ["git://github.com/drnic/ruby-shoulda-tmbundle.git", "Shoulda.tmbundle"],
       ["git://github.com/jcf/git-tmbundle.git", "Git.tmbundle"],
       ["git://github.com/szeryf/rails-routes.tmbundle.git"],
+      ["git://github.com/pivotal/jasmine-tmbundle.git", "Jasmine.tmBundle"],
     ].each do |git_path, path|
       path = "\"#{path}\"" if path
       system "git submodule add #{git_path} #{path}"
@@ -20,7 +21,7 @@ namespace :textmate do
 
   desc "Install this Bundles configuration as your official Bundles"
   task :install do
-    cmd_exec = lambda{|cmd_to_execute|system "#{cmd_to_execute}";puts "Executed #{cmd_to_execute}"}
+    cmd_exec = lambda{|cmd_to_execute|system "#{cmd_to_execute}"; puts "Executed #{cmd_to_execute}"}
     cmd_exec["git submodule init"]
     cmd_exec["git submodule update"]
     app_support = File.join(ENV["HOME"], "Library", "Application Support", "Textmate")
@@ -33,7 +34,7 @@ namespace :textmate do
     FileUtils.ln_s "#{File.expand_path(File.dirname(__FILE__))}", bundles_dir, :verbose => true
     Rake::Task['textmate:reload'].invoke
   end
-  
+
   desc "Reload textmate setup"
   task :reload do
     system %Q{osascript -e 'tell app "TextMate" to reload bundles'}

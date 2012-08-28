@@ -34,3 +34,6 @@
 [submodule "Clojure.tmbundle"]
 	path = Clojure.tmbundle
 	url = git://github.com/swannodette/textmate-clojure.git
+[submodule "Jasmine.tmBundle"]
+	path = Jasmine.tmBundle
+	url = git://github.com/pivotal/jasmine-tmbundle.git
